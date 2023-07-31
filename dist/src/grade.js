@@ -97,7 +97,9 @@ function filtrarHorarios(horarioClicado) {
                     tex = `qui` + guide
                } else if (aux[i] === '6') {
                     tex = `sex` + guide
-               }
+               } else if (aux[i] === '7') {
+                tex = `sab` + guide
+           }
                auxHorarios.push(tex)
            }
            aux = []
